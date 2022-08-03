@@ -1,0 +1,48 @@
+html{
+    background-image: url(./blurimage.png);
+    background-attachment: fixed;
+}
+.ramana{
+    display: flex;
+    justify-content: center;
+    margin: 200px;
+}
+.box{
+    width: 250px;
+    height: 130px;
+    background-color:whitesmoke;
+    margin:7px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.box1{
+    width: 220px;
+    height: 18px;
+    background-color:white;
+    margin-top: 20px;
+}
+.box2{
+    width: 90px;
+    height: 25px;
+    background-color: blue;
+    margin-top: 20px;
+    position: absolute;
+    top: 280px;
+    left: 650px;
+}
+.fa-circle-plus
+{
+    position:absolute;
+    left:653px;
+    top:305px; 
+}
+.fa-xmark {
+    position:absolute;
+    left:740px;
+    top:220px;  
+}
+.test{
+    position:absolute;
+    left:px;
+    top:280px;  
+}

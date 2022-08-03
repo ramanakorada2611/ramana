@@ -1,0 +1,42 @@
+ul{
+    list-style-type:none;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+.fa-circle-left{
+    position:absolute;
+    left:-1px;
+    top:1px;  
+}
+.fa-circle-plus
+{
+    position:absolute;
+    left:-25px;
+    top:1px; 
+}
+.dolly{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    justify-content: center;
+
+}
+.dolly1{
+    width: 220px;
+    height: 180px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 5px;
+}
+.test1{
+    position:absolute;
+    left:550px;
+    top:70px;  
+}
+.test2{
+    position:absolute;
+    left:700px;
+    top:70px; 
+}

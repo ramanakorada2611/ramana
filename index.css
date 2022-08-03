@@ -1,0 +1,29 @@
+
+ul{
+    list-style-type:none;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 10px;
+}
+.flex-container{
+    display: flex;
+    flex-flow: row wrap;
+    background-color: whitesmoke;
+    padding-top: 50px;
+    
+}
+.flex-item{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin:20px;
+    border-radius: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.test
+{
+    position:absolute;
+    left:800px;
+    top:70px; 
+}
