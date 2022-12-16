@@ -1,0 +1,72 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+   color: aqua;
+   text-shadow: 2px 2px white;
+   padding-top: 10px;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 160px;
+}
+.flex-item{
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    box-shadow: 5px 5px white;
+    
+}
+.flex-item:hover{
+    animation-name: box;
+    animation-delay: 0.1s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    position: relative;
+}
+@keyframes box{
+    from{
+        transform: rotate(0deg);
+    }to{
+        transform: rotate(360deg);
+    }
+}
+@media (max-width:400px){
+    .flex-container{
+        transition: all linear 1s 3s;
+        transform: translateX(100px);
+    } 
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-item{
+        margin-bottom: 50px;
+    }
+    .flex-item{
+        animation-name: box;
+        animation-delay: 4.7s;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+    @keyframes box{
+        from{
+            transform: rotate(0deg);
+        }
+        to{
+            transform: rotate(360deg);
+        }
+    }
+    .flex-container{
+        transition: all linear 1s 3s;
+        transform: translateX(100px);
+    } 
+}
